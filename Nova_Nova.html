@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>List of Properties</title>
+  <style>
+    .slider {
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .slide {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+    .slide img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+  </style>
+</head>
+<body>
+  
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/wzWHWfljHJT0CJTRMJ_6kg/1A9mv_RtcBuaJg2XEJydmZWrj0iFeOp_VkcYKYvxmzegeJBpp-z8auPBoAv-ZLvBttDM5YSAb6raChjIZONKSBop-noSCUTm2gT2Ddne_Tf5NlFHr49DlczkBXfTfceL1TJYNvxZD_AgjnSFyP6UTw/MrS6Lm6B3Xy82kDF44S5nuK0A-WFZ24nykBdldMUI4I" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/1QlIv6NfDT6ueJGi-SSrCg/J6ighxssySfW2d7iOUPqWVF9wH2Btn-nrydSU5yAOJ6zaw-FtPRNti0T6E_9e6EjGnKXhCDuPVznH7buu6hyWmlWPYzgnC4XO6SdWt_wa43SKqR00UUBG4SsnD9vI_sHl0t-QhTyw6MwHYyyvKeXrQ/WAKwa5eYgqGiUrv1stl4D7aMPSaqWzubBcAAk6yXW9A" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/D0_r0TdhmanZ7V724f6JXw/COclh5AD8Dh5XO5zLVSFmSIy6yLJBFqp48xVqLn29jATHum92Ho7Jf2t0TKmyJfc7nkGh9jO8r4A8VctFdh-8hqxmXOCtMx2ycjb1J_CwiIsf1mwDEjhTX7LVop10SLoUGEv3UP0jIiDc8yLByaJ9w/iacuj5Dxb4qoF3jOsS8DSO0HmXJ7oP-BvAaEknQFOaM" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/D8C3W9DJAr2Y3IK5lB90Ng/8p1f-YHOmOuqjRZqUWJ4YS1fVa0xNqE-j61CDnDImUyJTgrrAesVeoiUFiUDHb6YOBts1aeB2Eg_dW7W7UXbf6IhDxFfUDYcsqjTgNt2rJZT37IoPC6NKeiVVD7mxcy-a7zlf_A0NaPw8RIu_tzYNQ/oej-58EpfEMgU_JfKeinW9f4VMAvoY7TPlKEPClh0Kk" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/kWyV3rlVqEtyV1hO_oWckQ/3TEv73L5MAd_hKZN3x02ZZ2F3jlDJkvNfz9RAzzrWE6MqeZq91ERgCorv4muXuO_6bG96lBLL4P3pFIow9r_YNbl8zElc6C40AHR8D3vnoQvpwWv3EwBWqTsZgHkORo8aODoRm_9NNWP3rKSedoKdA/jy9XI_2X58Kxvl5wZIA7pvbGJQCZfRMz-oGCPt_r8gc" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/dOj4OyYG6jmeZSe9aw41qQ/4wCEnICv8v0fd5d-5gFliClkQetC29fewwceYrsM5NdmO9GAM3YNt4KaxRKSlIOtUpbU_0kbDiwpaacc9YXe5vRfAqiqzxYLq6FgmI-cORZeei8zI_d70rH0sxTeP6-2QqJCqjJhkjhFEW2uxfL5YA/tcUXhYBz_GeoDqKZdrG1BZzj-phYlUuo_EIV2tMwuOM" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/hwYBfBzsr_aKNuSyFV3bqQ/3kXscDLr9xIrv_hyOUXQmNVZ_AQ0mGrXO-wsMPhcFfNQz6eibQLvgg3yConn5nOpVm7jwaxUBd8G9akkoyRgziCJi_3GXwD5JiOm3oDiwplSShmaouNc5tW9xykMUDEEoC4qhCFuw-zWCe7ORf_nYA/qbnhikKmhncyLWct8MhYCBU9wEe3v33mFMdqSxtkZ_M" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/XSRMzxhRZRFDTozU8WXg6A/1KdBRZ-GXeJKC7y_9ew368Vx0nuVeUPM8H4LvFxosxkJN7NRmmtP7CJ5za9m187cL6A5m43JcqCu2NuSmOQ7C-zq6sDdVhJzJPlKnhxanN5reaBJ0pvxjWGKRTzRXZ3Wk6NWPnNBD9pqWIxP0GXfyQ/EIcsntku9-ElZE8cQLdUuE96KRVqcIzkujsN4TX4CFM" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/ZO-eQi9Y5i09hQJSyX_ttw/pnDE5NRA-jah6L_m8H1LIWzk2EM8poV4upqVOCSertPDoczpd04KPbWs74WrZ8qz4jAT-SQZ60FlZ1Ly76hdOvzWY3WFdHvjKMaRB16mph95vot2AHYo3nuh3E-HRCbri6ID-RgPtlfpoNcdgjw_7j70lZKu1jePvnDGKqaDamg/67r07V7FC6nDh2Te-KfInia4eY1oXkXYQuyyZUu4Tuc" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">East End — 1961 Queen St E, Toronto, ON M4L 1H9</h2>
+          <p><strong>Price:</strong> $3000000</p>
+          <p><strong>Floor:</strong> 7</p>
+          <p><strong>Bedrooms:</strong> 1+1 BD</p>
+          <p><strong>Parking:</strong> 3</p>
+          <p><strong>Square Footage:</strong> 700</p>
+          <p><strong>Amenities:</strong> Guest Parking,Outdoor Pool</p>
+          <p><strong>Details:</strong> Charming townhouse nestled in Toronto's East End. Recently sold, this home offered stylish interiors and a family-friendly layout in a growing neighborhood known for its cafes and community vibe.</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/_RTPKbCV50gv7zD-VnG42A/O1A33dToSymYtsi6A-O2TA60N5bjWHHeC3xhnJVEXg0bj0U2Y3TFfAdnaTY15I1V-JFoJyNPercrl0mYqdOTyRIg-fg5p9MQdd2kCXvAKkk43uCrfTn53oh_puCOBiPSuPD0xOSSr7GiQpCEzPpMvLHM-As0e5Gn4sN9jRNOKRiaUHFwBatIl5qdAmJVU3K-/v6v24CVZkKBhiTDpBUVULO7SfC8ECaQ6LeHW0dOdc9c" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/KPWJ5EjTZZeNQxFzpYaUcQ/rkTqQCRb48t-CCxLAAIJM3QwM-XctNTu_2DisD_NbTXtCHAmlgXQ_pZDmu2mONbGGBrKzLr4ZVgYVzHOCSms6vBLDrtdJYPUUn_Fmh5dxvMt0ScOTQK_O4nRHoqYBALzEY84zL9Blj5GkGCH27R0tQ/NeF3es4HWM9HAr6t6nlyroF3UBMJP55JCxB2aLTdmjE" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/PWQco5yhS5FsvzIpChsWFg/3d7IeJpOevawf5_RMxF5b2Kc3GkNB50Cz8QHUxolbT6o-EUFD3BiENe3wy-Lk413Ik4ssScwxXJHye616nyfMX53ddrWKY0vYcV70fgRGQ2FHmc33rWr0Qt4jeR2TscN1IAQBQ50LM3F0ivBkfo0bw/Air76dbaua6rZwKjeVPR4qkzvWnuC4sdyjkymiTuRuI" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/0lANlU8dJx5Y6Vk6MgU60A/b6y3GReNeLI15fXS4HKzQ57xCallgiRsZvbm0jhllmMmwlwAJMUYxaqZFe7EYk4kXfFoauql1Ggrb1ZTV3M__MYuEWrYmpvzBD6ndymMjV7_da4GetSJh0yPcd6T-jL6QS0IqvqlhCcuLIDnRHpZ3W9-ZzIoQImiHmnF6cQ4x5tqljDTkTbAQGa226cr3mRP6sYzYfsTAQfc0MRUIQ0kAA/csnfAb9X4TfXbAP5g7cino0_t2LeVIzZOuw0Qj0PHI4" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/KTqQlaXaIGpnrUxy0Yg7LA/6BBC3sQxs2vRJ686uN6651xFfxclQumV_kLeFe_VOLLQQWE38QfWgCkLJhg9T6c344WqQv8_AaQLUIpJOBqLYBnIwxWVSnkwRO9oMYW4_6EgdNwfs_uFfA5DNyAnCUct_wzLi7TAdI4k6TfD0IHp9fhE6Wmem3M0T1tcULwrO7A/jzdr-F0MuR7JucgvkW961-gDTahpF8ZaizA6JB-WEo4" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/Z_5D2HEU7lR5yfuUPZUNFw/g6Xg8FjYUdLnrsWNk83Mxc9fckSUHuh1gb3Nn8fw6opv7CGVUB-05FXBSC6IIgcs3vuL7iVeekESNYQCzNTUDFInBuo_9HR-x60Ubb4YE9l73n-hMj2S4uppJ1k78HuGfMyv_m1WK5jZtJtHopv8EFkG5H6SC7UCf5qKuuuad2o/nn8G1r8JGAwIrxAkYRR5P9uGG5f7gQ9_pvzaIlhauIU" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/95d_tL_qbHabQ48NtlQeqw/0ZCJOh1gtsUpjxQggqUF7Lj4HrhVzFULyQ7w85BSn0E9a9A-wL67lN_QGbqb109wdVfhSaNtaaqHllkOSFRlez7vBIzGV3bi8OIwqZVpaIhw7MzYs3KkFuPysZggAW8RJVi365FkD93oW1Qxks9amA/lhImYQKIls3I66lLQnhrOBMNh_LgwhxU9nqCS3yQZqY" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/wPKDNSXDZ6ruO5J01Vbzrg/6gwv9cVLDfEfw9zb4RM8zqWf1CBtCq-ajEvmjBVKygfmKOBKhIZ93qwe7cU-p8_wZ0-tiCFWmcgXMSfPZ7tNKpXdJJTm6uyppwbaoXEfmZ1WCFXdwD9e60OvaKklzwyaoPO3WUvB0O0s2o_bc_TiWw/F57x_Igu4YD8mrrE1gjjKv6BbqhROhmLr6ThwsSZGSo" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/QI1ChhOn7T6XHp1fpRC4Zg/02gkDpvlGVFi3t5WoHOO_ClahyF_jbLVNT-ERI_MlYfRX8VLiBRvJA8RvLKnrvBHpLe7uCWsz2j_r2s9nvU8FfR6zN5Mt63geir4wuPo3LggYuDfo8tcU4NXk45aIdiHUGvxSIlFTTFi30J0qhWwZw/Au0yeIGze6kUEpbOCYfO_U4djROXOl2fQ39xKAkxn5E" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">Downtown — 100 Queen St W, Toronto, ON M5H 2N1</h2>
+          <p><strong>Price:</strong> $1000000</p>
+          <p><strong>Floor:</strong> 2</p>
+          <p><strong>Bedrooms:</strong> Studio</p>
+          <p><strong>Parking:</strong> 1</p>
+          <p><strong>Square Footage:</strong> 2800</p>
+          <p><strong>Amenities:</strong> Indoor Pool ,Gym</p>
+          <p><strong>Details:</strong> Spacious detached home located in the heart of Downtown Toronto. Ideal for families or professionals seeking urban living with privacy. Close to transit, shops, and entertainment. Ready for immediate move-in.</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/HHOgRJRq_eIaATO3Hdo2CA/j4OpCXgypEqVuFlw4gDWozExOUQE4deIdhjPHppHbTMEcoGofLq57Y9uc1T_bQJNaRxFeZMWxW_hBKdqSQF81h__T8C9qjSkB9fNHxO5gHjKI8QQYkgb8s2X65nh2XzikqbIfuOvE100iTedpqiX2ur7GYnU0ggFykxdWrL9vOyZc-GPGhqAzXPFA2jqGIdbVUVJZZ9x42mDk3Cr7_8q4Q/o4OS-6zQBfgLM9h4QDWUhXLD2nHV_jHi2_BZouppGRg" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/vATpPH9YpAs3nwlgYLWrZQ/G0fo77Al7Gi805AI-CygsCO4Nn92AiLWWGh3s--Z03bwTPrtIRo_FewWW9TN1C8SPnvdWs70vKa61UOvmo32E8Uv_VwxBt4A1KsBjwQJo9a4xLUWb9H1sG-fKHcrdK1OR-vkkW-NesjuGVXxOSvbeA/n44fLzntbTrZ77SZfwVmUT5dr5M0R4aX6Q690tso_TA" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/WDB2N6lC5bObg4SAg_wQWw/2KnqCBYfagLODgpyYT7vhQqp6zv4L9cOe93-av2bNu74G7hKkrjnaJeNDEnJRm_0oUlvJPQ2v6JKZA-mUDowggJe4bRaE8Z2PumHeLyWgKoDUHf3wIldQe87kp0e7umGZpD0pdjv_YyUldVz5CPAZg/iamh2Fwz0UWlc7fMi36lcwEVR_62IaL66G-VymA-D6g" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/-ISm7FoBI8_rPMnyXyQw5Q/YoQYrlodYvfJwMxpzhC758LwCKHo6DlV5ChFDOyBfz5MOZfydPfdIn7y1eR-xWdILk1fZVT-msPvr01FeYn7sl2oKKSQHeL4se_mIpxMNz8SPGGUlJBFv3azdLfwbSsXoe3tz8ygiPvwOu0-_ZU2oA/Nfw5fosd7DVULIG9dmwhyhYu3JmMS0p4WT1t-kae1Ek" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/xHhP9zWNzAoZJX6q-eDwWg/xNlubF7tZyfOI08zuzglRs3_Y4uoluuecoElZqiOuU-tpsLET7gT54na9T6QC5COQ1KnTFstw7CKR02We3HA7UkFJHTE7oQEOwqOqm3h_LY77i_QzrcJckJjPFfVXap5gbg89P9JeD0K6PliXaFOeQ/YMfemLhiSUuP4llMVGp4ZKBonQoF8uSV5G7PwsCtkDY" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/AF-NNhkut2dr2B_Pn8HtGw/yuhO6oDnrg_iESGH3_0nnghchT2W3zMtgf3cQtc7XMBWeq60ve4omdV6wmhCG9Xup81ldqcVJo8KYPWZJMu4G_h_WjM08hiCnZ369s78X2X2BlaxxclMhXByHpnBKnIw4b5oV33K0_-cIB3qtbVDog/wTS83tUdi22WrQynNb8C8PCTrH58Qv8uq2yLgL9ZloQ" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/o0-c2DkFAU1AfvaOTovncw/VXKWMCByL4Ak8YkPAFGGxy5-mofNdHaq_--mXld3jlLbdo1rOD2o9RrHrJcyP7joBLq00x6fRw1t0a7dzLWRx_5Gj2-TBDhUKLriGMgJ0qZVS3K011QizbosTqMlXPsFVg3GgJZkPBCxk_YOgExvPg/PvYgfA-u7s2jXt__bS0PWCoHDDl78J7kYugc2oKFvXc" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/jQEFKOFAN0jcyBgyJonmxQ/IAaomhgDbKtUBspqJWf82ybWg9QJZKFGZ6xhnBQ3UkCNPFwP35TlIhE93SduQ3xZx2pQZbfHnZ38FGFP5-p0ImBvZlfygkT1E91mk0Kv7pbgzwQwK0HXNC_2FVDEKeZx35SWp4NvzFgPPLprQ3T83Q/-r1uPhxsp1zWeoa1nXixIUcKPGVk_aXVj00i5sB_0gc" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/NWj5kOQCyVv9c9Lho5NElg/RVj721tvqA9Zliwj0w_0jNhQDihsAbxfLMwHOYc-RmFEBOdfAT2Qc3vpYn_4cz592AZSxj0b4BRM5o2nC_GSDkACrJqYFDJM83W2kg8JlGinSrZcEuXtbZW7twCCqgAZHEUq3Dz4Z5DvU9-vXb5GTw/KgowjQInsolspqipWNOeMxWzbGxGZOCHUgzy2tBEQqk" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">Downtown — 7539 Lakeshore Blvd, Bay Street Corridor, Downtown, Toronto, ON, Canada</h2>
+          <p><strong>Price:</strong> $458905</p>
+          <p><strong>Floor:</strong> 6</p>
+          <p><strong>Bedrooms:</strong> 2BD</p>
+          <p><strong>Parking:</strong> 4</p>
+          <p><strong>Square Footage:</strong> 730</p>
+          <p><strong>Amenities:</strong> Gym,Outdoor Pool</p>
+          <p><strong>Details:</strong> Premium office space for rent in Toronto’s bustling Downtown core. Perfect for startups or small businesses seeking a central, professional location with excellent visibility and access to transit.
+
+</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/XwjHpN3o6l2PxsjSilBJRQ/-Sg1zz_9WWiYc9auwKJmH9TVgXKgtPhytog3wqDF8ksBS56jVxx7Lm4XggWbFRFODF1B8nH2OTCrmPS8XfHjUP1k8x6WWsSgnXlaxG8M-iAmIAq8fkCo0kjA8-jNXdYruAKliXVwuikouVrVN6AVvbL9NxD0L0ArqTkHnVSpTk3mdCUZ5_laZTBJy4JJhSAtTRK9aoIYm10Q_lIYAcW0ixlUhLwfRL-wadH9HiaTtTI/QSSaOLXh6NEyZ_u2AGrXyIf0d0PsGflbbabIABQ6-_Q" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/S5ZsKocgOSfPL71CpsUpVw/QCx1C1R3YJAcbPD3GkJVxTn4Y6Qzc_KjxFn0F71exawELzrSlWU-_hJR9p4uSCU3nsUCz75fppJL-S9A-LjCUJ0mmODJ5gP8Icbq5pdj23wo9zSeJqodLXn6rZSzzDvArf_86sN7QB_0ul4l2xwmSQ/PtB_URMvpYBu0MxciZaroGtekAKdZbB7LkvRybcCFfA" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/nKEV-x0HC1Y1JlSAowZWMQ/JHugOaYm9Jj0BsRO2TckasybNI4xh-1TsIZ1YqIfJaR707wWFwCYe-myWkT_DEQAfy3TZ7ZaoBYh2RSq4mC28tRDzebsZsfrCN40rnJUYAVMndYCMo0Yx-tKGsVm9SSphZS-Td-4FR1dn6eCs96ing/1c9KsuPAt-Hg6bW-4o-1foqSYuX-HWOqtnGGFv2DObQ" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/4iPo6si_3F6ewRg8jFcwxw/9QOs_zDIYiZptLVdFDtES2rPyPqptIll8HT4CUKzAjyovTuSQz0RUsm1BYgy2OCYO1FDk49YNCOvIXHI_L2SLLAM2G21UKhMujqGTR83SznJWc5nQ2oS5E0LgfCphLNDvzF4QGgdZGVYt5YhZsFucA/ayAJYjwYRarPvT0EgFZGnRaz8Ft8GIzKr0Nnbme1hMc" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">Scarborough — 8802 Queen St, Malvern, Scarborough, Toronto, ON, Canada</h2>
+          <p><strong>Price:</strong> $67804</p>
+          <p><strong>Floor:</strong> 24</p>
+          <p><strong>Bedrooms:</strong> Studio</p>
+          <p><strong>Parking:</strong> 1</p>
+          <p><strong>Square Footage:</strong> 498</p>
+          <p><strong>Amenities:</strong> BBQ Permitted,Party Room</p>
+          <p><strong>Details:</strong> Well-equipped industrial unit in Scarborough’s commercial district. Recently off market, this property offered flexible layouts for manufacturing or distribution, plus on-site parking and secure access.
+
+</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/eOD-pSca3j_P5mNpq8Kp_g/B35oFEx5Y9iXr2bMz5o8IJghI-33s_w1TlhTUZbXXELWkIuuFQzXSD88Mhl_OpzLvZ2q_GEqBVtTi2H-dTsbqpUeOaJ_LuQVykt_Qad3NBIg48Ip_sm4cY2E-Mt4UvVW7yzPtwBD0Vz54lULXqM71vlOBASjxaFC85XMhusP4rc3TC8UVxOdT8bEnZ9Mh5Va/xn_LqR7TcrG6IlA2GpVJecHFIdlKLoljxQIyVIDuINU" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/cyMcwTb8M3e7w1TAXPCvoQ/Vaf5EKyFOrCIBvF6_5RZzks8vflxifea4JXynr3UB45WXhet0uTve8DBPn0Fy1QZSGFsxGxPUpK8rWHSK93EG8oOgtIviZsOLhxHS7xr_a0yv7oAb386G-mUX_GAKVueFg2a7h-VG4fMxQsiqMMpkxdu4F4pRIYzCi7RpbS4CSQQyP_PpSEeKdinOf3wXdoMjD92O71aPzO5TTGTL7jPYhzKAq2LSI4r0-7wCPpY3MJtg5rSGyClRmTuk7Ps_mPEx9VBSbpH9jXcc8fty0ljMcbWHxfkeSxfEox1SuC3DH8AYbb5YFvgjQsE9T6rFz37bWlvmzY9T_aPx0TwL-KcKcBw5-gkE6sescEUWKmyVjhO9Ubd7M2B0gPKjaZDy1zF/V8pcRQjELpsNKhGbWqULpiZYAO0cYI560l4iGpNRRWI" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/AkkgfI1MmbJSRsHqJnAayg/Xozq0wxUEHPpET_OJrdjslijU79PVQGe9IoChDYGoFK6btrTEXJRcHF2hqncWXepp1bJciAFpzsGJ5190w5L4K9m2ZL1wPsaie66x4IWBxalqYshMLluiYgW4l5UJ5YYxoDnU1SxiJh50VXmXY1PyAjRCVIu8yPDDdk76v5dwddOwp8mUKJrU1_IwWm6lGVF/Znf13wwIq3jPIimwdK2tspBv6gSgzybiHu2KnYwHRDs" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">Midtown — 1003 Lakeshore Blvd, Forest Hill South, Midtown, Toronto, ON, Canada</h2>
+          <p><strong>Price:</strong> $567920</p>
+          <p><strong>Floor:</strong> 11</p>
+          <p><strong>Bedrooms:</strong> 2+1 BD</p>
+          <p><strong>Parking:</strong> 5</p>
+          <p><strong>Square Footage:</strong> 496</p>
+          <p><strong>Amenities:</strong> Guest Parking,BBQ Permitted</p>
+          <p><strong>Details:</strong> Expansive warehouse space in Midtown Toronto, currently under offer. Ideal for logistics, e-commerce, or storage operations. High ceilings, convenient loading dock, and easy access to main roads.</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/T4IxutC6_TNkRzmo-9FxCQ/IN-CQVqv43B7HAl5JVn-Nl4Rl5Uu8dViX53ewznyKRApifn7oEaH5dcYBz2qn4YClF0vF7NrXHD4Ut5Sf5RI2DDNuDCputZ3AITrAjZq1NseALbsZgliNZLO4T7UWOdmRA57EQHv0yAlUQm_EwQfrzZq-BOwidk9OYfcoSFO0oSmIQ_yXbj1BuHa1U_V0PnO2cUuiQI6cPSFTJSqqlMlmpE9YrEwlBbX2JWoBW4UVBveB-xS81HSPYUBqFUTwA7PM4xHfVZgHPp96HwcchjNygoQbKz80xt_mUdThEqFnlQSw2sDk-raSa18maX9a6llo2NYR18BVTpXsAksg6xU6pFFSGMYd5lXUUJIhZ-ZNCgPghmp-sdzKCrxONvEp3y3pQbds6dvTi2yRryymD0KQg/6j2LDKStJCT_IDU2bmBuQt2AChCr-uqHXLPbygVuMh0" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/OW0YA1JOvc_0Qgv06HbbiA/eY9InEZPe7jZRqDBCWC1BmMs5iPjwczEeWXnc7o6Q-OyI8FikFb3DFSuozXTHilEffRkxAUChuFHEfDZR8VxKljxRrVb5jxQcUTwGO_-eHoZqKyC0Fe-0oSAKyXJrcHCzb13dKtQYYOQ-92G2R3P8w/z_9RyChAYXcrSgGHG0ilQq_5J2ioDP_WLUJdsQ8hVjM" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/4f3SQ5epoIblhqS97hhRQw/SpuAmKE6jdaTolMpw8Tl7cakhQ9fVqAJzqSDAztbeJrEvz2AyZ_izBLoEjYSblL6tmNSppLTdIMxnjMwU49-dfImBwUoTaisOY2OER9duh8Q-svSmYTK5LMm-7yk7zDct1btaK2Vw2TbebuUUtJzWQ/TtpCz0sIk_HhRG_LbHduUXodELZLBWh13dRt_rk250Q" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/d6ScO27762gadFEu41RNEA/8D51CEfE13t4H0gk4Gjmyk5fbxmLJbQrhMwqLoa34ypCRoM6k9-RusSvbUvR9rFcgMjJubafK26uHYYB3DFWzvAXPsVcgoHp6R13hIAkrulo5TBlsmBtyeYx0Kr3hVF88KuRcxS_fpqoj33JfdNpyw/fUCo39-o9Ml02KeD5vroH9eXy8zN6Y-NRWpxuIVFwbo" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">West End — 1388 Lakeshore Blvd, Roncesvalles, West End, Toronto, ON, Canada</h2>
+          <p><strong>Price:</strong> $4567923</p>
+          <p><strong>Floor:</strong> 37</p>
+          <p><strong>Bedrooms:</strong> 3BD+</p>
+          <p><strong>Parking:</strong> None</p>
+          <p><strong>Square Footage:</strong> 573</p>
+          <p><strong>Amenities:</strong> Library,Guest Parking</p>
+          <p><strong>Details:</strong> Street-facing retail unit in the vibrant West End. Though currently off market, it previously offered excellent foot traffic, large display windows, and modern interior—perfect for a boutique or café.</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div style="page-break-after: always; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 40px;">
+      
+      <!-- Верхняя строка: картинка-слайдер + описание -->
+      <div style="display: flex; flex-direction: row; gap: 20px; align-items: flex-start;">
+
+        <!-- Слайдер -->
+        <div style="flex: 1;">
+          <div class="slider">
+            <div class="slides">
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/kos8FCXjiBHVF--eJnHaRA/Z1_Hdr0xmeoGXZQOSz3HJhNgHjpzJq-MWyprNKV42hba9SZbyDh6DctbUwWwouPpzmUuvi6DAQ37r0C1Xf8rWoxpeIpQ6HbvwYDujFIFyw85gGiDHdymQs-nOdBFgCZDn_a_lOlDkBuQPWh7CG5EyA/wnnFut1ADhknNQHetZwsmtVzu1utW83mtytq33sEbvc" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/pegmahgq8E9zpJLjQ_n2qw/v-0-vhItJ1Dg-5DB2zCIc-Wiclj3rxMVOE7XXpqcpsIWhThGkgW3dByLDUuu_zhgKZNhbQb1Dhxsd4JAZpMG_GAyGTcFuoUaj0c8VSi_NuUI784i6a3EvGjvHZumAetzNU_rLp00oCGIQ9sN3G-REw/cpK7wvFClcG_x9cER-_LhCKuCKCxcwWrdRVPf8sHUS8" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/9FZvxGuaGvr1pphTB_Vnzw/LUpD0fXCl3q35yFfaaxtZBd8xIZB8aaMfGKz5UD9NX5j9iEhMV1q3N8yQB9I1VGg7h-wsQjJM6wm38yHNIoYQtQ3r76J6ujiJ3OHf_oPSDJjmgby1w1laOIQfFjb8KpkfchdwXLzqq-wvMRrtMCukA/D6J99-HiMECSTOlaBddfP9y4DVqKNV8qBbmblWQDNv8" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/Mi3ZGv0Xsal0DUU-Bbh93A/tK89NeymEOki8pGOZ4QcSsZ2Uiif9DL6RRX2lNtgICRckQaSCwqt2QErDOj-e6_JSEVc7GkZvJ8xwiTYzfo0bN7gn8-jZnQItCuRQeqduNjmSK6foEFUcphKxw3C5pG3uYXDD7v7kvOlKKQPccnVEQ/FqtvOK0ccUUFU9bMF0ig1xc3CJrp3UA-8LmMSSyNJlI" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/FIA8jehrGWMrF6Syqm4gLA/Jh3XSioASOHKJNC_nJKTrFvHHGayvOjGg6LuHVN9gZf_aMymi-RY0LBX2lfxxqYNMdpzt-zT_7Ydd_hZjRYyhQzzzfkgvukLvnm9Cbt5dnIs-xGtxnEgtcFXSXu6nt9MGxQ2FhQwVuo1Kh7_vt6vm0OvrOyXspZccAf49gh8h7E/zsHDzxpDoheaVBW285hXP2uTtj7q8ivoWzwxqgQNc40" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/7pgvXcyVDZza8wzQU6uH7g/fcYwwNauXjemT-dVZeSWaoiEEKRFTLcJ2d3IyW7uo5AnwXEtvMqt4wFLUrsM18Kn30fUi9hfyuZ8QTINr08Em0ucjr44BHmlz30AEBr6KffDnQqSJpxYeeaz9vTVKOOV68tcrT9_fdsdP0QlbAvtXkDHrQjFtwAz2ZlDX1_N3UbXaCZmncgvKE1ziT1i4y3muclXknRIQ2eiYM69afNd0qrHEv6Jr4zsxGODnhOBB3jKjRy9eO6zPe8qE9kziukcarHZO30eZ2kZ0VLSNV0zEfZiQt_kspbgYB9ctgdiM6yaTEoYsJhGXI2oK34iTDplkDTgzWlHfQBcW6bQAEGXsliZXXLuIFTE2mbiPLcErw4lA6d9IYsvnA-AzYwIrk83/RgZA1o4ax7NpEL6v-z5J0mSRA0IDanjJd6_ym3LrJcc" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/E2bzP8xURxlFsHU2nhJ2DA/3o-Zftta3tgJHLnuTobFauSIjcFZQX3G6Rl4N6RoLTEMxQWmSSzOlOwfyOt1Yp54I5ZbKE0AqPJWZkl7hfqysrLFslY8dWo3roCKcg7ipBXcafTFKpDDyaESOz09Pi-5B0PUXZb0BEvj4QKVk4BBbA/Jxl15GdFVO8PBslPX53Vitm11cvZWRKBJdQ-LZzQ6xQ" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/o4XQ56Ybewbn5giTXG_4WQ/TSvZbL4wWY8LFtu31ow_izadRnuub3QcEmOJApaJkg269zjtNXT1WgNEhPsu4kJK4f5_CA7KscPbpfo9WDpSm7EXeN5Mhjfxv0Nv6vxzBA3PM9n_pXBgzxaxPnbXCFiDJM3X7SHswekWIIis0qSz2-0g7C6K1acYUYuRsMAzTI9VUr914ABLzkolfIDYlRvtmJbnHkPYmTANN3yKMofrug/jZm044lBGJy3168-ubk59DpFeW1CBaceYy5NRyQzUME" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/izyOD7wYYHIBWsdSIWIoiw/uLd-K9jtMTUHOFT5CKjo-q04jbZeF5jiEEDj68rOsTHnm7lMrXMt7Fcq_31fe3tBgMT6fb3zdxYX8Z_sn4cLkAEYWjcz2sOZteuPEDXli3q8llHO6Qih1Au-8Jj6ULoEV2HFwxWLkGUtmeVvepcF5Fli90fleKdRBypqTHr75VzHV9HitwCY_tDqIp-MDeUGe8fr7eZvSFwAyS7Z5JWYOQ/WhkqiBY1Any6-m7_Dzyyblk3m1_8WlKqOpfqgJRtv28" alt="Property Image" />
+                </div>
+              
+                <div class="slide">
+                  <img src="https://v5.airtableusercontent.com/v3/u/43/43/1754424000000/EUSRHSvsDzGIqpBdzqFDzg/eqJUpRGDoQXoLGAdnQ8h1EeK1jAJDJRDaJwQCazykKnCrW6THqMUK5272H2rFAJwQ9pJru7b6370zfC9EU8LB7ByOEhUino-ht_EnOsS6JMBqbnI3egqC2--BbMmXHd3FgGVvX-RunYGqDRr88QVgQ/y4jlZ1YyYrLeor_4NauLFm1gpSi6xdF0YpTpUDOMUbU" alt="Property Image" />
+                </div>
+              
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Описание -->
+        <div style="flex: 2; display: flex; flex-direction: column; padding-left: 5px;">
+          <h2 style="margin-top: 0;">Midtown — 2345 Yonge St, Toronto, ON M4P 2E5</h2>
+          <p><strong>Price:</strong> $2000000</p>
+          <p><strong>Floor:</strong> 5</p>
+          <p><strong>Bedrooms:</strong> 1BD</p>
+          <p><strong>Parking:</strong> 2</p>
+          <p><strong>Square Footage:</strong> 1500</p>
+          <p><strong>Amenities:</strong> Library,Party Room</p>
+          <p><strong>Details:</strong> Beautiful semi-detached house available for rent in vibrant Midtown. This cozy property features modern finishes, nearby parks, and excellent transit access. Perfect for tenants looking for a mix of comfort and convenience.</p>
+        </div>
+      </div>
+    </div>
+  
+
+  <script>
+    document.querySelectorAll('.slider').forEach(slider => {
+      let currentIndex = 0;
+      const slides = slider.querySelector('.slides');
+      const slideCount = slider.querySelectorAll('.slide').length;
+
+      const updateSlide = () => {
+        slides.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';
+      };
+
+      slider.querySelector('.next').addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slideCount;
+        updateSlide();
+      });
+
+      slider.querySelector('.prev').addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+        updateSlide();
+      });
+    });
+  </script>
+</body>
+</html>
